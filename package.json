@@ -1,0 +1,19 @@
+{
+  "name": "node-pptx-parser",
+  "version": "0.0.1",
+  "description": "a simple pptx parser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/*.js -r jscoverage"
+  },
+  "author": "fillano.feng@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jscoverage": "^0.6.0",
+    "mocha": "^3.2.0"
+  }
+}
