@@ -1,19 +1,4 @@
-const args = require('minimist')(process.argv.slice(2));
 const path = require('path');
-const fs = require('fs');
-
-if(args._.length < 1) {
-	console.log('Usage: node node-pptx-parser [path to main.json]');
-}
-
-let target = args._[0];
-if(target.indexOf('main.json') < 0)
-	target += path.sep + 'main.json';
-
-fs.readFile(target, {encoding: 'utf-8'}, (err, data) => {
-	if(!!err) return console.error(err);
-	parser(data);
-});
 
 module.exports = parser;
 
@@ -28,7 +13,6 @@ function parser(data) {
 	let relations = relationParser(entries, pptx);
 	let types = typeParser(entries, pptx);
 	let presentation = presentationParser(entries, pptx, relations);
-	console.log(JSON.stringify(presentation, null, 2));
 	return {
 		relations: relations,
 		types: types,
@@ -123,6 +107,5 @@ function presentationParser(entries, pptx, relations) {
 		cx: root['p:sldSz'][0].$.cx,
 		cy: root['p:sldSz'][0].$.cy
 	};
-	presentation['defaultTextStyle'] = root['p:defaultTextStyle'][0];
 	return presentation;
 }

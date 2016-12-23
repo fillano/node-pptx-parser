@@ -4,16 +4,17 @@
   "description": "a simple pptx parser.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/*.js -r jscoverage"
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "fillano.feng@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "jscoverage": "^0.6.0",
-    "mocha": "^3.2.0"
+    "coveralls": "^2.11.15",
+    "mocha": "^2.5.0",
+    "nyc": "^10.0.0"
   }
 }
