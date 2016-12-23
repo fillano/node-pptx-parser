@@ -21,9 +21,9 @@ describe('ppt/presentation.xml parsing test', () => {
         });
     });
     describe('test slideMasterIdList', () => {
-		it('only one slideMaster in list.', done => {
+		it('only one slideMaster in the list.', done => {
 			let pptx = parser(data);
-    		assert.equal(pptx.presentation.slideMasterIdList.length, 1);
+    		assert.lengthOf(pptx.presentation.slideMasterIdList, 1);
     		done();
 		});
     	it('id, rid, target should matched.', done => {
@@ -35,9 +35,9 @@ describe('ppt/presentation.xml parsing test', () => {
     	});
     });
     describe('test slideIdList', () => {
-    	it('four slides in the list', done => {
+    	it('four slides in the list.', done => {
     		let pptx = parser(data);
-    		assert.equal(pptx.presentation.slideIdList.length, 4);
+    		assert.lengthOf(pptx.presentation.slideIdList, 4);
     		done();
     	});
     	it('id, rid target should matched for each.', done => {
