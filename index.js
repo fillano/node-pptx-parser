@@ -3,7 +3,11 @@ const path = require('path');
 module.exports = parser;
 
 function parser(data) {
-	let pptx = JSON.parse(data);
+	if (typeof data === 'string') {
+		var pptx = JSON.parse(data);
+	} else {
+		var pptx = data;
+	}
 	let entries = [];
 	for(let i in pptx) {
 		if(pptx.hasOwnProperty(i)) {
