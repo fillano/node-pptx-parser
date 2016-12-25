@@ -13,9 +13,11 @@ function parser(data) {
 	let relations = require('./lib/relationParser')(entries, pptx);
 	let types = require('./lib/typeParser')(entries, pptx);
 	let presentation = require('./lib/presentationParser')(entries, pptx, relations);
+	let slides = require('./lib/slidesParser')(entries, pptx, relations, presentation);
 	return {
 		relations: relations,
 		types: types,
-		presentation: presentation
+		presentation: presentation,
+		slides: slides
 	};
 }

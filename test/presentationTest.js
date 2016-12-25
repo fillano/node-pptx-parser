@@ -62,3 +62,45 @@ describe('ppt/presentation.xml parsing test', () => {
     	});
     });
 });
+
+describe('ppt/slides/*.xml parsing test', () => {
+	let slides = {};
+	before(done => {
+		fs.readFile('./test/main.json', {encoding: 'utf-8'}, (err, d) => {
+			if(!!err) throw err;
+			slides = parser(d).slides;
+			done();
+		});
+	});
+	describe('check slides', () => {
+		it('check rids', done => {
+		let rids = ['rId2', 'rId3', 'rId4', 'rId5'];
+		for(let i in slides) {
+			if(slides.hasOwnProperty(i)) {
+				assert.include(rids, i);
+			}
+		}
+		done();
+		});
+	});
+	describe('check ppt/slides/slide1.xml (rId2)', () => {
+		it('check color settings', done => {
+			let slide = slides['rId2'];
+			let colorScheme = slide.colorScheme;
+			let colorMap = slide.colorMap;
+			assert.equal(colorScheme[colorMap['tx1']], '2F2B20');
+			assert.equal(colorScheme[colorMap['tx2']], '675E47');
+			assert.equal(colorScheme[colorMap['bg1']], 'FFFFFF');
+			assert.equal(colorScheme[colorMap['bg2']], 'DFDCB7');
+			assert.equal(colorScheme[colorMap['accent1']], 'A9A57C');
+			assert.equal(colorScheme[colorMap['accent2']], '9CBEBD');
+			assert.equal(colorScheme[colorMap['accent3']], 'D2CB6C');
+			assert.equal(colorScheme[colorMap['accent4']], '95A39D');
+			assert.equal(colorScheme[colorMap['accent5']], 'C89F5D');
+			assert.equal(colorScheme[colorMap['accent6']], 'B1A089');
+			assert.equal(colorScheme[colorMap['hlink']], 'D25814');
+			assert.equal(colorScheme[colorMap['folHlink']], '849A0A');
+			done();
+		});
+	});
+});
