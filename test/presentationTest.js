@@ -37,7 +37,7 @@ describe('ppt/presentation.xml parsing test', () => {
     describe('test slideIdList', () => {
     	it('four slides in the list.', done => {
     		let pptx = parser(data);
-    		assert.lengthOf(pptx.presentation.slideIdList, 4);
+    		assert.lengthOf(pptx.presentation.slideIdList, 6);
     		done();
     	});
     	it('id, rid target should matched for each.', done => {
@@ -74,7 +74,7 @@ describe('ppt/slides/*.xml parsing test', () => {
 	});
 	describe('check slides', () => {
 		it('check rids', done => {
-		let rids = ['rId2', 'rId3', 'rId4', 'rId5'];
+		let rids = ['rId2', 'rId3', 'rId4', 'rId5', 'rId6', 'rId7'];
 		for(let i in slides) {
 			if(slides.hasOwnProperty(i)) {
 				assert.include(rids, i);
@@ -110,7 +110,7 @@ describe('ppt/slideMasters/*.xml parsing test', () => {
 	before(done => {
 		fs.readFile('./test/main.json', {encoding: 'utf-8'}, (err, d) => {
 			if(!!err) throw err;
-			slides = parser(d).slides;
+			slides = parser(JSON.parse(d)).slides;
 			done();
 		});
 	});
@@ -118,9 +118,13 @@ describe('ppt/slideMasters/*.xml parsing test', () => {
 		it('check shapes', done => {
 			let slide = slides['rId2'];
 			let shapes = slide.shapes;
-			assert.equal(shapes.length, 2);
+			assert.equal(shapes.length, 3);
 			assert.equal(shapes[0].id, '7');
+			assert.equal(shapes[0].type, 'shape');
 			assert.equal(shapes[1].id, '8');
+			assert.equal(shapes[1].type, 'shape');
+			assert.equal(shapes[2].id, '9');
+			assert.equal(shapes[2].type, 'pic');
 			done();
 		});
 	});
