@@ -104,3 +104,24 @@ describe('ppt/slides/*.xml parsing test', () => {
 		});
 	});
 });
+
+describe('ppt/slideMasters/*.xml parsing test', () => {
+	let slides = {};
+	before(done => {
+		fs.readFile('./test/main.json', {encoding: 'utf-8'}, (err, d) => {
+			if(!!err) throw err;
+			slides = parser(d).slides;
+			done();
+		});
+	});
+	describe('check ppt/slideMasters/slideMaster1.xml parsing into slide1.xml', () => {
+		it('check shapes', done => {
+			let slide = slides['rId2'];
+			let shapes = slide.shapes;
+			assert.equal(shapes.length, 2);
+			assert.equal(shapes[0].id, '7');
+			assert.equal(shapes[1].id, '8');
+			done();
+		});
+	});
+});
