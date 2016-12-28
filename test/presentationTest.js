@@ -118,13 +118,13 @@ describe('ppt/slideMasters/*.xml parsing test', () => {
 		it('check shapes', done => {
 			let slide = slides['rId2'];
 			let shapes = slide.shapes;
-			assert.equal(shapes.length, 3);
-			assert.equal(shapes[0].id, '7');
+			assert.equal(shapes.length, 2);
+			assert.equal(shapes[0].id, '2');
 			assert.equal(shapes[0].type, 'shape');
-			assert.equal(shapes[1].id, '8');
+			assert.equal(shapes[1].id, '3');
 			assert.equal(shapes[1].type, 'shape');
-			assert.equal(shapes[2].id, '9');
-			assert.equal(shapes[2].type, 'pic');
+			//assert.equal(shapes[2].id, '9');
+			//assert.equal(shapes[2].type, 'pic');
 			done();
 		});
 	});

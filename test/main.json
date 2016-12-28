@@ -2601,6 +2601,13 @@
                           ]
                         },
                         {
+                          "a:pPr": [
+                            {
+                              "$": {
+                                "lvl": "2"
+                              }
+                            }
+                          ],
                           "a:r": [
                             {
                               "a:rPr": [
@@ -2632,6 +2639,13 @@
                           ]
                         },
                         {
+                          "a:pPr": [
+                            {
+                              "$": {
+                                "lvl": "3"
+                              }
+                            }
+                          ],
                           "a:r": [
                             {
                               "a:rPr": [
@@ -3022,72 +3036,18 @@
                                                                       ]
                                                                     }
                                                                   ]
-                                                                }
-                                                              ]
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "p:cTn": [
-                                            {
-                                              "$": {
-                                                "id": "11",
-                                                "fill": "hold"
-                                              },
-                                              "p:stCondLst": [
-                                                {
-                                                  "p:cond": [
-                                                    {
-                                                      "$": {
-                                                        "delay": "indefinite"
-                                                      }
-                                                    }
-                                                  ]
-                                                }
-                                              ],
-                                              "p:childTnLst": [
-                                                {
-                                                  "p:par": [
-                                                    {
-                                                      "p:cTn": [
-                                                        {
-                                                          "$": {
-                                                            "id": "12",
-                                                            "fill": "hold"
-                                                          },
-                                                          "p:stCondLst": [
-                                                            {
-                                                              "p:cond": [
-                                                                {
-                                                                  "$": {
-                                                                    "delay": "0"
-                                                                  }
-                                                                }
-                                                              ]
-                                                            }
-                                                          ],
-                                                          "p:childTnLst": [
-                                                            {
-                                                              "p:par": [
+                                                                },
                                                                 {
                                                                   "p:cTn": [
                                                                     {
                                                                       "$": {
-                                                                        "id": "13",
+                                                                        "id": "11",
                                                                         "presetID": "1",
                                                                         "presetClass": "entr",
                                                                         "presetSubtype": "0",
                                                                         "fill": "hold",
                                                                         "grpId": "0",
-                                                                        "nodeType": "clickEffect"
+                                                                        "nodeType": "withEffect"
                                                                       },
                                                                       "p:stCondLst": [
                                                                         {
@@ -3109,7 +3069,7 @@
                                                                                   "p:cTn": [
                                                                                     {
                                                                                       "$": {
-                                                                                        "id": "14",
+                                                                                        "id": "12",
                                                                                         "dur": "1",
                                                                                         "fill": "hold"
                                                                                       },
@@ -3175,72 +3135,18 @@
                                                                       ]
                                                                     }
                                                                   ]
-                                                                }
-                                                              ]
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "p:cTn": [
-                                            {
-                                              "$": {
-                                                "id": "15",
-                                                "fill": "hold"
-                                              },
-                                              "p:stCondLst": [
-                                                {
-                                                  "p:cond": [
-                                                    {
-                                                      "$": {
-                                                        "delay": "indefinite"
-                                                      }
-                                                    }
-                                                  ]
-                                                }
-                                              ],
-                                              "p:childTnLst": [
-                                                {
-                                                  "p:par": [
-                                                    {
-                                                      "p:cTn": [
-                                                        {
-                                                          "$": {
-                                                            "id": "16",
-                                                            "fill": "hold"
-                                                          },
-                                                          "p:stCondLst": [
-                                                            {
-                                                              "p:cond": [
-                                                                {
-                                                                  "$": {
-                                                                    "delay": "0"
-                                                                  }
-                                                                }
-                                                              ]
-                                                            }
-                                                          ],
-                                                          "p:childTnLst": [
-                                                            {
-                                                              "p:par": [
+                                                                },
                                                                 {
                                                                   "p:cTn": [
                                                                     {
                                                                       "$": {
-                                                                        "id": "17",
+                                                                        "id": "13",
                                                                         "presetID": "1",
                                                                         "presetClass": "entr",
                                                                         "presetSubtype": "0",
                                                                         "fill": "hold",
                                                                         "grpId": "0",
-                                                                        "nodeType": "clickEffect"
+                                                                        "nodeType": "withEffect"
                                                                       },
                                                                       "p:stCondLst": [
                                                                         {
@@ -3262,7 +3168,7 @@
                                                                                   "p:cTn": [
                                                                                     {
                                                                                       "$": {
-                                                                                        "id": "18",
+                                                                                        "id": "14",
                                                                                         "dur": "1",
                                                                                         "fill": "hold"
                                                                                       },
@@ -3930,6 +3836,13 @@
                           ]
                         },
                         {
+                          "a:pPr": [
+                            {
+                              "$": {
+                                "lvl": "1"
+                              }
+                            }
+                          ],
                           "a:r": [
                             {
                               "a:rPr": [
@@ -3961,6 +3874,13 @@
                           ]
                         },
                         {
+                          "a:pPr": [
+                            {
+                              "$": {
+                                "lvl": "2"
+                              }
+                            }
+                          ],
                           "a:r": [
                             {
                               "a:rPr": [
@@ -3992,6 +3912,13 @@
                           ]
                         },
                         {
+                          "a:pPr": [
+                            {
+                              "$": {
+                                "lvl": "3"
+                              }
+                            }
+                          ],
                           "a:r": [
                             {
                               "a:rPr": [
@@ -4275,45 +4202,18 @@
                                                                       ]
                                                                     }
                                                                   ]
-                                                                }
-                                                              ]
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    },
-                                                    {
-                                                      "p:cTn": [
-                                                        {
-                                                          "$": {
-                                                            "id": "7",
-                                                            "fill": "hold"
-                                                          },
-                                                          "p:stCondLst": [
-                                                            {
-                                                              "p:cond": [
-                                                                {
-                                                                  "$": {
-                                                                    "delay": "2000"
-                                                                  }
-                                                                }
-                                                              ]
-                                                            }
-                                                          ],
-                                                          "p:childTnLst": [
-                                                            {
-                                                              "p:par": [
+                                                                },
                                                                 {
                                                                   "p:cTn": [
                                                                     {
                                                                       "$": {
-                                                                        "id": "8",
+                                                                        "id": "7",
                                                                         "presetID": "1",
                                                                         "presetClass": "entr",
                                                                         "presetSubtype": "0",
                                                                         "fill": "hold",
                                                                         "grpId": "0",
-                                                                        "nodeType": "afterEffect"
+                                                                        "nodeType": "withEffect"
                                                                       },
                                                                       "p:stCondLst": [
                                                                         {
@@ -4335,7 +4235,7 @@
                                                                                   "p:cTn": [
                                                                                     {
                                                                                       "$": {
-                                                                                        "id": "9",
+                                                                                        "id": "8",
                                                                                         "dur": "1",
                                                                                         "fill": "hold"
                                                                                       },
@@ -4401,45 +4301,18 @@
                                                                       ]
                                                                     }
                                                                   ]
-                                                                }
-                                                              ]
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    },
-                                                    {
-                                                      "p:cTn": [
-                                                        {
-                                                          "$": {
-                                                            "id": "10",
-                                                            "fill": "hold"
-                                                          },
-                                                          "p:stCondLst": [
-                                                            {
-                                                              "p:cond": [
-                                                                {
-                                                                  "$": {
-                                                                    "delay": "4000"
-                                                                  }
-                                                                }
-                                                              ]
-                                                            }
-                                                          ],
-                                                          "p:childTnLst": [
-                                                            {
-                                                              "p:par": [
+                                                                },
                                                                 {
                                                                   "p:cTn": [
                                                                     {
                                                                       "$": {
-                                                                        "id": "11",
+                                                                        "id": "9",
                                                                         "presetID": "1",
                                                                         "presetClass": "entr",
                                                                         "presetSubtype": "0",
                                                                         "fill": "hold",
                                                                         "grpId": "0",
-                                                                        "nodeType": "afterEffect"
+                                                                        "nodeType": "withEffect"
                                                                       },
                                                                       "p:stCondLst": [
                                                                         {
@@ -4461,7 +4334,7 @@
                                                                                   "p:cTn": [
                                                                                     {
                                                                                       "$": {
-                                                                                        "id": "12",
+                                                                                        "id": "10",
                                                                                         "dur": "1",
                                                                                         "fill": "hold"
                                                                                       },
@@ -4527,45 +4400,18 @@
                                                                       ]
                                                                     }
                                                                   ]
-                                                                }
-                                                              ]
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    },
-                                                    {
-                                                      "p:cTn": [
-                                                        {
-                                                          "$": {
-                                                            "id": "13",
-                                                            "fill": "hold"
-                                                          },
-                                                          "p:stCondLst": [
-                                                            {
-                                                              "p:cond": [
-                                                                {
-                                                                  "$": {
-                                                                    "delay": "6000"
-                                                                  }
-                                                                }
-                                                              ]
-                                                            }
-                                                          ],
-                                                          "p:childTnLst": [
-                                                            {
-                                                              "p:par": [
+                                                                },
                                                                 {
                                                                   "p:cTn": [
                                                                     {
                                                                       "$": {
-                                                                        "id": "14",
+                                                                        "id": "11",
                                                                         "presetID": "1",
                                                                         "presetClass": "entr",
                                                                         "presetSubtype": "0",
                                                                         "fill": "hold",
                                                                         "grpId": "0",
-                                                                        "nodeType": "afterEffect"
+                                                                        "nodeType": "withEffect"
                                                                       },
                                                                       "p:stCondLst": [
                                                                         {
@@ -4587,7 +4433,7 @@
                                                                                   "p:cTn": [
                                                                                     {
                                                                                       "$": {
-                                                                                        "id": "15",
+                                                                                        "id": "12",
                                                                                         "dur": "1",
                                                                                         "fill": "hold"
                                                                                       },
@@ -18198,7 +18044,7 @@
         "相鄰.thmx"
       ],
       "TotalTime": [
-        "16756"
+        "17643"
       ],
       "Words": [
         "38"
@@ -18318,7 +18164,7 @@
         "Hsu Ping Feng"
       ],
       "cp:revision": [
-        "16"
+        "17"
       ],
       "dcterms:created": [
         {
@@ -18330,7 +18176,7 @@
       ],
       "dcterms:modified": [
         {
-          "_": "2016-12-27T23:10:20Z",
+          "_": "2016-12-28T13:57:41Z",
           "$": {
             "xsi:type": "dcterms:W3CDTF"
           }
