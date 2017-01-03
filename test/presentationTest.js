@@ -61,9 +61,125 @@ describe('ppt/presentation.xml parsing test', () => {
     		done();
     	});
     });
+	describe('test defaultTextStyle', () => {
+		it('test defPPr', done => {
+			let pptx = parser(data);
+			let presentation = pptx['presentation'];
+			assert.equal(presentation.defaultTextStyle.defaultParagraphStyle.defRPr.lang, 'zh-TW');
+			done();
+		});
+		it('test lvl1pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level1ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW');
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '0');
+			done();
+		});
+		it('test lvl2pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level2ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '457200');
+			done();
+		});
+		it('test lvl3pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level3ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '914400');
+			done();
+		});
+		it('test lvl4pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level4ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '1371600');
+			done();
+		});
+		it('test lvl5pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level5ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '1828800');
+			done();
+		});
+		it('test lvl6pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level6ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '2286000');
+			done();
+		});
+		it('test lvl7pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level7ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '2743200');
+			done();
+		});
+		it('test lvl8pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level8ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '3200400');
+			done();
+		});
+		it('test lvl9pPr', done => {
+			let pptx = parser(data);
+			let lvlpPr = pptx.presentation.defaultTextStyle.level9ParagraphProperty;
+			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
+			assert.equal(lvlpPr.defRPr.kern, '1200');
+			assert.equal(lvlpPr.defRPr.sz, '1800');
+			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
+			assert.equal(lvlpPr.algn, 'l');
+			assert.equal(lvlpPr.defTabSz, '457200');
+			assert.equal(lvlpPr.marL, '3657600');
+			done();
+		});
+	});
 });
 
-describe('ppt/slides/*.xml parsing test', () => {
+/*describe('ppt/slides/*.xml parsing test', () => {
 	let slides = {};
 	before(done => {
 		fs.readFile('./test/main.json', {encoding: 'utf-8'}, (err, d) => {
@@ -187,4 +303,4 @@ describe('ppt/slideMasters/*.xml parsing test', () => {
 			done();
 		});
 	});
-});
+});*/
