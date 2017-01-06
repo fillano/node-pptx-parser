@@ -1055,7 +1055,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -1383,7 +1383,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -1953,7 +1953,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -2420,7 +2420,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -2722,7 +2722,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -3177,7 +3177,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -3788,7 +3788,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -4715,7 +4715,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -6385,7 +6385,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -7449,7 +7449,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -8369,7 +8369,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -9000,7 +9000,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -11901,7 +11901,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -12319,7 +12319,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -13274,7 +13274,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -13945,7 +13945,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -14282,7 +14282,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -15305,7 +15305,7 @@
                   {
                     "$": {
                       "id": 1,
-                      "name": null
+                      "name": ""
                     },
                     "#name": "p:cNvPr"
                   },
@@ -15945,7 +15945,7 @@
                 "$$": [
                   {
                     "$": {
-                      "val": 675
+                      "val": "675E47"
                     },
                     "#name": "a:srgbClr"
                   }
@@ -16069,13 +16069,13 @@
                   },
                   {
                     "$": {
-                      "typeface": null
+                      "typeface": ""
                     },
                     "#name": "a:ea"
                   },
                   {
                     "$": {
-                      "typeface": null
+                      "typeface": ""
                     },
                     "#name": "a:cs"
                   },
@@ -16302,13 +16302,13 @@
                   },
                   {
                     "$": {
-                      "typeface": null
+                      "typeface": ""
                     },
                     "#name": "a:ea"
                   },
                   {
                     "$": {
-                      "typeface": null
+                      "typeface": ""
                     },
                     "#name": "a:cs"
                   },
