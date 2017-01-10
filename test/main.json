@@ -1923,9 +1923,713 @@
                       "nodeType": "tmRoot",
                       "xmlns:p14": "http://schemas.microsoft.com/office/powerpoint/2010/main"
                     },
-                    "#name": "p:cTn"
+                    "#name": "p:cTn",
+                    "$$": [
+                      {
+                        "#name": "p:childTnLst",
+                        "$$": [
+                          {
+                            "$": {
+                              "concurrent": 1,
+                              "nextAc": "seek"
+                            },
+                            "#name": "p:seq",
+                            "$$": [
+                              {
+                                "$": {
+                                  "id": 2,
+                                  "dur": "indefinite",
+                                  "nodeType": "mainSeq"
+                                },
+                                "#name": "p:cTn",
+                                "$$": [
+                                  {
+                                    "#name": "p:childTnLst",
+                                    "$$": [
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 3,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 4,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 5,
+                                                                      "presetID": 42,
+                                                                      "presetClass": "path",
+                                                                      "presetSubtype": 0,
+                                                                      "accel": 50000,
+                                                                      "decel": 50000,
+                                                                      "fill": "hold",
+                                                                      "grpId": 0,
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "origin": "layout",
+                                                                              "path": "M -3.63068E-6 -4.47143E-6 L 0.39119 -0.00462 ",
+                                                                              "pathEditMode": "relative",
+                                                                              "rAng": 0,
+                                                                              "ptsTypes": "AA"
+                                                                            },
+                                                                            "#name": "p:animMotion",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 6,
+                                                                                      "dur": 2000,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn"
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 5
+                                                                                        },
+                                                                                        "#name": "p:spTgt"
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "ppt_x",
+                                                                                        "#name": "p:attrName"
+                                                                                      },
+                                                                                      {
+                                                                                        "_": "ppt_y",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "$": {
+                                                                                  "x": 19559,
+                                                                                  "y": -231
+                                                                                },
+                                                                                "#name": "p:rCtr"
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 7,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 8,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 9,
+                                                                      "presetID": 42,
+                                                                      "presetClass": "path",
+                                                                      "presetSubtype": 0,
+                                                                      "accel": 50000,
+                                                                      "decel": 50000,
+                                                                      "fill": "hold",
+                                                                      "grpId": 0,
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "origin": "layout",
+                                                                              "path": "M 0 0  L 0 0.33322  E",
+                                                                              "pathEditMode": "relative",
+                                                                              "ptsTypes": ""
+                                                                            },
+                                                                            "#name": "p:animMotion",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 10,
+                                                                                      "dur": 2000,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn"
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 6
+                                                                                        },
+                                                                                        "#name": "p:spTgt"
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "ppt_x",
+                                                                                        "#name": "p:attrName"
+                                                                                      },
+                                                                                      {
+                                                                                        "_": "ppt_y",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 11,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 12,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 13,
+                                                                      "presetID": 37,
+                                                                      "presetClass": "path",
+                                                                      "presetSubtype": 0,
+                                                                      "accel": 50000,
+                                                                      "decel": 50000,
+                                                                      "fill": "hold",
+                                                                      "grpId": 0,
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "origin": "layout",
+                                                                              "path": "M 0 0  L 0.067 0.05331  C 0.081 0.06531  0.102 0.07198  0.124 0.07198  C 0.149 0.07198  0.169 0.06531  0.183 0.05331  L 0.25 0  E",
+                                                                              "pathEditMode": "relative",
+                                                                              "ptsTypes": ""
+                                                                            },
+                                                                            "#name": "p:animMotion",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 14,
+                                                                                      "dur": 2000,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn"
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 2
+                                                                                        },
+                                                                                        "#name": "p:spTgt"
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "ppt_x",
+                                                                                        "#name": "p:attrName"
+                                                                                      },
+                                                                                      {
+                                                                                        "_": "ppt_y",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 15,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 16,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 17,
+                                                                      "presetID": 1,
+                                                                      "presetClass": "path",
+                                                                      "presetSubtype": 0,
+                                                                      "accel": 50000,
+                                                                      "decel": 50000,
+                                                                      "fill": "hold",
+                                                                      "grpId": 1,
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "origin": "layout",
+                                                                              "path": "M 0.25009 1.07102E-6 C 0.31916 1.07102E-6 0.37504 0.07472 0.37504 0.16655 C 0.37504 0.25862 0.31916 0.33333 0.25009 0.33333 C 0.18101 0.33333 0.12513 0.25862 0.12513 0.16655 C 0.12513 0.07472 0.18101 1.07102E-6 0.25009 1.07102E-6 Z ",
+                                                                              "pathEditMode": "relative",
+                                                                              "rAng": 0,
+                                                                              "ptsTypes": "fffff"
+                                                                            },
+                                                                            "#name": "p:animMotion",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 18,
+                                                                                      "dur": 2000,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn"
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 2
+                                                                                        },
+                                                                                        "#name": "p:spTgt"
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "ppt_x",
+                                                                                        "#name": "p:attrName"
+                                                                                      },
+                                                                                      {
+                                                                                        "_": "ppt_y",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "$": {
+                                                                                  "x": 0,
+                                                                                  "y": 16655
+                                                                                },
+                                                                                "#name": "p:rCtr"
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "#name": "p:prevCondLst",
+                                "$$": [
+                                  {
+                                    "$": {
+                                      "evt": "onPrev",
+                                      "delay": 0
+                                    },
+                                    "#name": "p:cond",
+                                    "$$": [
+                                      {
+                                        "#name": "p:tgtEl",
+                                        "$$": [
+                                          {
+                                            "#name": "p:sldTgt"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "#name": "p:nextCondLst",
+                                "$$": [
+                                  {
+                                    "$": {
+                                      "evt": "onNext",
+                                      "delay": 0
+                                    },
+                                    "#name": "p:cond",
+                                    "$$": [
+                                      {
+                                        "#name": "p:tgtEl",
+                                        "$$": [
+                                          {
+                                            "#name": "p:sldTgt"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "#name": "p:bldLst",
+            "$$": [
+              {
+                "$": {
+                  "spid": 5,
+                  "grpId": 0
+                },
+                "#name": "p:bldP"
+              },
+              {
+                "$": {
+                  "spid": 6,
+                  "grpId": 0
+                },
+                "#name": "p:bldP"
+              },
+              {
+                "$": {
+                  "spid": 2,
+                  "grpId": 0
+                },
+                "#name": "p:bldP"
+              },
+              {
+                "$": {
+                  "spid": 2,
+                  "grpId": 1
+                },
+                "#name": "p:bldP"
               }
             ]
           }
@@ -2390,7 +3094,762 @@
                       "nodeType": "tmRoot",
                       "xmlns:p14": "http://schemas.microsoft.com/office/powerpoint/2010/main"
                     },
-                    "#name": "p:cTn"
+                    "#name": "p:cTn",
+                    "$$": [
+                      {
+                        "#name": "p:childTnLst",
+                        "$$": [
+                          {
+                            "$": {
+                              "concurrent": 1,
+                              "nextAc": "seek"
+                            },
+                            "#name": "p:seq",
+                            "$$": [
+                              {
+                                "$": {
+                                  "id": 2,
+                                  "dur": "indefinite",
+                                  "nodeType": "mainSeq"
+                                },
+                                "#name": "p:cTn",
+                                "$$": [
+                                  {
+                                    "#name": "p:childTnLst",
+                                    "$$": [
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 3,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 4,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 5,
+                                                                      "presetID": 1,
+                                                                      "presetClass": "entr",
+                                                                      "presetSubtype": 0,
+                                                                      "fill": "hold",
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "#name": "p:set",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 6,
+                                                                                      "dur": 1,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "#name": "p:stCondLst",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "$": {
+                                                                                              "delay": 1999
+                                                                                            },
+                                                                                            "#name": "p:cond"
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 3
+                                                                                        },
+                                                                                        "#name": "p:spTgt",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "#name": "p:txEl",
+                                                                                            "$$": [
+                                                                                              {
+                                                                                                "$": {
+                                                                                                  "st": 0,
+                                                                                                  "end": 0
+                                                                                                },
+                                                                                                "#name": "p:pRg"
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "style.visibility",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "#name": "p:to",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "val": "visible"
+                                                                                    },
+                                                                                    "#name": "p:strVal"
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 7,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 8,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 9,
+                                                                      "presetID": 1,
+                                                                      "presetClass": "entr",
+                                                                      "presetSubtype": 0,
+                                                                      "fill": "hold",
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "#name": "p:set",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 10,
+                                                                                      "dur": 1,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "#name": "p:stCondLst",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "$": {
+                                                                                              "delay": 1999
+                                                                                            },
+                                                                                            "#name": "p:cond"
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 3
+                                                                                        },
+                                                                                        "#name": "p:spTgt",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "#name": "p:txEl",
+                                                                                            "$$": [
+                                                                                              {
+                                                                                                "$": {
+                                                                                                  "st": 1,
+                                                                                                  "end": 1
+                                                                                                },
+                                                                                                "#name": "p:pRg"
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "style.visibility",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "#name": "p:to",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "val": "visible"
+                                                                                    },
+                                                                                    "#name": "p:strVal"
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 11,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 12,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 13,
+                                                                      "presetID": 1,
+                                                                      "presetClass": "entr",
+                                                                      "presetSubtype": 0,
+                                                                      "fill": "hold",
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "#name": "p:set",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 14,
+                                                                                      "dur": 1,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "#name": "p:stCondLst",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "$": {
+                                                                                              "delay": 1999
+                                                                                            },
+                                                                                            "#name": "p:cond"
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 3
+                                                                                        },
+                                                                                        "#name": "p:spTgt",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "#name": "p:txEl",
+                                                                                            "$$": [
+                                                                                              {
+                                                                                                "$": {
+                                                                                                  "st": 2,
+                                                                                                  "end": 2
+                                                                                                },
+                                                                                                "#name": "p:pRg"
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "style.visibility",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "#name": "p:to",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "val": "visible"
+                                                                                    },
+                                                                                    "#name": "p:strVal"
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "#name": "p:par",
+                                        "$$": [
+                                          {
+                                            "$": {
+                                              "id": 15,
+                                              "fill": "hold"
+                                            },
+                                            "#name": "p:cTn",
+                                            "$$": [
+                                              {
+                                                "#name": "p:stCondLst",
+                                                "$$": [
+                                                  {
+                                                    "$": {
+                                                      "delay": "indefinite"
+                                                    },
+                                                    "#name": "p:cond"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "#name": "p:childTnLst",
+                                                "$$": [
+                                                  {
+                                                    "#name": "p:par",
+                                                    "$$": [
+                                                      {
+                                                        "$": {
+                                                          "id": 16,
+                                                          "fill": "hold"
+                                                        },
+                                                        "#name": "p:cTn",
+                                                        "$$": [
+                                                          {
+                                                            "#name": "p:stCondLst",
+                                                            "$$": [
+                                                              {
+                                                                "$": {
+                                                                  "delay": 0
+                                                                },
+                                                                "#name": "p:cond"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "#name": "p:childTnLst",
+                                                            "$$": [
+                                                              {
+                                                                "#name": "p:par",
+                                                                "$$": [
+                                                                  {
+                                                                    "$": {
+                                                                      "id": 17,
+                                                                      "presetID": 1,
+                                                                      "presetClass": "entr",
+                                                                      "presetSubtype": 0,
+                                                                      "fill": "hold",
+                                                                      "nodeType": "clickEffect"
+                                                                    },
+                                                                    "#name": "p:cTn",
+                                                                    "$$": [
+                                                                      {
+                                                                        "#name": "p:stCondLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "$": {
+                                                                              "delay": 0
+                                                                            },
+                                                                            "#name": "p:cond"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "#name": "p:childTnLst",
+                                                                        "$$": [
+                                                                          {
+                                                                            "#name": "p:set",
+                                                                            "$$": [
+                                                                              {
+                                                                                "#name": "p:cBhvr",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "id": 18,
+                                                                                      "dur": 1,
+                                                                                      "fill": "hold"
+                                                                                    },
+                                                                                    "#name": "p:cTn",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "#name": "p:stCondLst",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "$": {
+                                                                                              "delay": 1999
+                                                                                            },
+                                                                                            "#name": "p:cond"
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:tgtEl",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "$": {
+                                                                                          "spid": 3
+                                                                                        },
+                                                                                        "#name": "p:spTgt",
+                                                                                        "$$": [
+                                                                                          {
+                                                                                            "#name": "p:txEl",
+                                                                                            "$$": [
+                                                                                              {
+                                                                                                "$": {
+                                                                                                  "st": 3,
+                                                                                                  "end": 3
+                                                                                                },
+                                                                                                "#name": "p:pRg"
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "#name": "p:attrNameLst",
+                                                                                    "$$": [
+                                                                                      {
+                                                                                        "_": "style.visibility",
+                                                                                        "#name": "p:attrName"
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "#name": "p:to",
+                                                                                "$$": [
+                                                                                  {
+                                                                                    "$": {
+                                                                                      "val": "visible"
+                                                                                    },
+                                                                                    "#name": "p:strVal"
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "#name": "p:prevCondLst",
+                                "$$": [
+                                  {
+                                    "$": {
+                                      "evt": "onPrev",
+                                      "delay": 0
+                                    },
+                                    "#name": "p:cond",
+                                    "$$": [
+                                      {
+                                        "#name": "p:tgtEl",
+                                        "$$": [
+                                          {
+                                            "#name": "p:sldTgt"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "#name": "p:nextCondLst",
+                                "$$": [
+                                  {
+                                    "$": {
+                                      "evt": "onNext",
+                                      "delay": 0
+                                    },
+                                    "#name": "p:cond",
+                                    "$$": [
+                                      {
+                                        "#name": "p:tgtEl",
+                                        "$$": [
+                                          {
+                                            "#name": "p:sldTgt"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -17034,8 +18493,7 @@
     "$": {
       "xmlns:a": "http://schemas.openxmlformats.org/drawingml/2006/main",
       "xmlns:r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
-      "xmlns:p": "http://schemas.openxmlformats.org/presentationml/2006/main",
-      "lastView": "sldThumbnailView"
+      "xmlns:p": "http://schemas.openxmlformats.org/presentationml/2006/main"
     },
     "#name": "p:viewPr",
     "$$": [
@@ -17093,7 +18551,7 @@
                   },
                   {
                     "$": {
-                      "x": -1608,
+                      "x": -872,
                       "y": -96
                     },
                     "#name": "p:origin"
@@ -17230,7 +18688,7 @@
         "#name": "Template"
       },
       {
-        "_": "23312",
+        "_": "35858",
         "#name": "TotalTime"
       },
       {
@@ -17406,7 +18864,7 @@
         "#name": "cp:lastModifiedBy"
       },
       {
-        "_": "21",
+        "_": "25",
         "#name": "cp:revision"
       },
       {
@@ -17417,7 +18875,7 @@
         "#name": "dcterms:created"
       },
       {
-        "_": "2017-01-01T12:26:16Z",
+        "_": "2017-01-10T05:33:09Z",
         "$": {
           "xsi:type": "dcterms:W3CDTF"
         },

@@ -71,7 +71,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl1pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level1ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW');
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -83,7 +82,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl2pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level2ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -95,7 +93,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl3pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level3ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -107,7 +104,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl4pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level4ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -119,7 +115,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl5pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level5ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -131,7 +126,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl6pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level6ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -143,7 +137,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl7pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level7ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -155,7 +148,6 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl8pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level8ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
@@ -167,13 +159,46 @@ describe('ppt/presentation.xml parsing test', () => {
 		it('test lvl9pPr', done => {
 			let pptx = parser(data);
 			let lvlpPr = pptx.presentation.defaultTextStyle.level9ParagraphProperty;
-			assert.equal(lvlpPr.defRPr.lang, 'zh-TW')
 			assert.equal(lvlpPr.defRPr.kern, '1200');
 			assert.equal(lvlpPr.defRPr.sz, '1800');
 			assert.equal(lvlpPr.defRPr.solidFill, 'tx1');
 			assert.equal(lvlpPr.algn, 'l');
 			assert.equal(lvlpPr.defTabSz, '457200');
 			assert.equal(lvlpPr.marL, '3657600');
+			done();
+		});
+	});
+});
+
+describe('ppt/theme/theme1.xml parsing test', () => {
+	let pptx = {};
+	before(done => {
+		fs.readFile('./test/main.json', {encoding: 'utf-8'}, (err, d) => {
+			if(!!err) throw err;
+			pptx = parser(d);
+			done();
+		});
+	});
+	describe('color scheme', () => {
+		it('check color and key name', done => {
+			let theme = pptx.themes['ppt/theme/theme1.xml'];
+			assert.equal(theme.colorScheme.dk1, '#2F2B20');
+			assert.equal(theme.colorScheme.lt1, '#FFFFFF');
+			assert.equal(theme.colorScheme.dk2, '#675E47');
+			assert.equal(theme.colorScheme.lt2, '#DFDCB7');
+			assert.equal(theme.colorScheme.accent1, '#A9A57C');
+			assert.equal(theme.colorScheme.accent2, '#9CBEBD');
+			assert.equal(theme.colorScheme.accent3, '#D2CB6C');
+			assert.equal(theme.colorScheme.accent4, '#95A39D');
+			assert.equal(theme.colorScheme.accent5, '#C89F5D');
+			assert.equal(theme.colorScheme.accent6, '#B1A089');
+			assert.equal(theme.colorScheme.hlink, '#D25814');
+			assert.equal(theme.colorScheme.folHlink, '#849A0A');
+			done();
+		});
+	});
+	describe('font scheme', () => {
+		it('check lang setting', done => {
 			done();
 		});
 	});
