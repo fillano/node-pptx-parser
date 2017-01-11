@@ -1,6 +1,6 @@
 {
   "name": "node-pptx-parser",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "a simple pptx parser.",
   "main": "index.js",
   "scripts": {
