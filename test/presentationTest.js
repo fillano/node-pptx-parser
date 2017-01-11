@@ -175,7 +175,7 @@ describe('ppt/theme/theme1.xml parsing test', () => {
 	before(done => {
 		fs.readFile('./test/main.json', {encoding: 'utf-8'}, (err, d) => {
 			if(!!err) throw err;
-			pptx = parser(d);
+			pptx = parser(JSON.parse(d));
 			done();
 		});
 	});
